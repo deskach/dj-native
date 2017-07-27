@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import {SectionList, StyleSheet, Text, View} from 'react-native';
 
 export default class SectionListBasics extends Component {
-  cntr = 0;
-
   render() {
     return (
       <View style={styles.container}>
